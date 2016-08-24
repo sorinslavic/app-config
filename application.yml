@@ -16,3 +16,5 @@ spring:
     services:
       registrationMethod: direct
 
+ribbon: # <---NEW SECTION
+  IsSecure: false
