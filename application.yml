@@ -10,3 +10,9 @@ logging:
   level:
     io:
       pivotal: DEBUG
+
+spring:
+  cloud:
+    services:
+      registrationMethod: direct
+
